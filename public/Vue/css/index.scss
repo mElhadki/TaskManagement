@@ -1,0 +1,107 @@
+$linear-Gradient: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(34, 30, 30, 0.479));
+$Background1:url('../Images/img1.jpg');
+$Background2:url('../Images/img2.jpg');
+$Background3:url('../Images/img3.jpg');
+$yellow:rgb(211, 174, 53);
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+
+#Back1 {
+
+    background-image:
+    $linear-Gradient, $Background1;
+}
+
+#Back2 {
+
+    background-image:
+    $linear-Gradient, $Background2;
+}
+
+#Back3 {
+
+    background-image:
+    $linear-Gradient, $Background3;
+}
+
+.col-md-6 {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+#logbox {
+    padding: 10px;
+    margin: 50px auto;
+    width: 340px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+    color: #757575;
+    font-weight: 300;
+}
+
+h1,
+input {
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.input {
+    width: 75%;
+    height: 50px;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.input:focus {
+    outline: none;
+    border-bottom-color: $yellow !important;
+}
+
+
+.inputButton {
+    position: relative;
+    width: 85%;
+    height: 50px;
+    display: block;
+    margin: 30px auto 30px;
+    color: white;
+    background-color: $yellow;
+    border: none;
+    box-shadow: 0 5px 0 $yellow;
+}
+
+.inputButton:hover {
+    top: 2px;
+    box-shadow: 0 3px 0 $yellow;
+}
+
+.inputButton:active {
+    top: 5px;
+    box-shadow: none;
+}
+
+.inputButton:focus {
+    outline: none;
+}
+

@@ -1,0 +1,163 @@
+@import 'index';
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.HeaderTitle{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.display-4{
+    color: white;
+    font-size: 60px;
+}
+
+
+.card-box {
+    background: #FAFAFA;
+    min-height: 300px;
+    position: relative;
+    padding: 30px 30px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.card-box:hover {
+    background: linear-gradient(to right, #ff971f17 0%, #e3fa122b 51%, #ffb11f36 100%);
+}
+
+.card-box:after {
+    display: block;
+    background: $yellow;
+    border-top: 2px solid $yellow;
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.card-title h2 {
+    margin: 0;
+    padding-top: 5%;
+    color: $yellow;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.card-title h5{
+
+    color: $yellow;
+}
+.card-title p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.add{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.btn-primary{
+  
+    background-color: $yellow;
+    border: none;
+  
+&:hover{
+    background-color: rgb(199, 172, 97);
+    border: none;
+}
+&:focus{
+    background-color: rgb(199, 172, 97);
+    border: none;
+}
+}
+
+//Button Add
+
+.button-Addmore {
+    display: inline-block;
+    background-color:rgba(214, 169, 21, 0.3);
+    text-decoration: none;
+    border-radius: 300px;
+    border: 1px solid rgba(206, 152, 26, 0.3);
+    color: rgba(206, 152, 26, 0.3);
+    height: 44px;
+    width: 44px;
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: all 0.35s;
+  }
+  .button-Addmore:hover {
+    width: 159px;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  .button-Addmore span {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 37px;
+    width: 159px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    transition: left 0.25s;
+  }
+  .button-Addmore:hover span {
+    left: 0;
+  }
+  .button-Addmore:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:"...";
+    display: block;
+    height: 44px;
+    width: 44px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    transition: left 0.35s;
+  }
+  .button-Addmore:hover:before {
+    left: -37px;
+  }
+
+  //popUp
+
+  input{
+    width: 75%;
+    height: 50px;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+}
+textarea{
+    width: 75%;
+    height: 70px;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+
+}
+input:focus,textarea:focus {
+    outline: none;
+    border-bottom-color: $yellow !important;
+}

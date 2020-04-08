@@ -1,0 +1,95 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+#Back1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.315)), to(rgba(34, 30, 30, 0.479))), url("../Images/img1.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(34, 30, 30, 0.479)), url("../Images/img1.jpg");
+}
+
+#Back2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.315)), to(rgba(34, 30, 30, 0.479))), url("../Images/img2.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(34, 30, 30, 0.479)), url("../Images/img2.jpg");
+}
+
+#Back3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.315)), to(rgba(34, 30, 30, 0.479))), url("../Images/img3.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(34, 30, 30, 0.479)), url("../Images/img3.jpg");
+}
+
+.col-md-6 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#logbox {
+  padding: 10px;
+  margin: 50px auto;
+  width: 340px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  text-align: center;
+  font-size: 175%;
+  color: #757575;
+  font-weight: 300;
+}
+
+h1,
+input {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.input {
+  width: 75%;
+  height: 50px;
+  display: block;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom-color: #d3ae35 !important;
+}
+
+.inputButton {
+  position: relative;
+  width: 85%;
+  height: 50px;
+  display: block;
+  margin: 30px auto 30px;
+  color: white;
+  background-color: #d3ae35;
+  border: none;
+  -webkit-box-shadow: 0 5px 0 #d3ae35;
+          box-shadow: 0 5px 0 #d3ae35;
+}
+
+.inputButton:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0 #d3ae35;
+          box-shadow: 0 3px 0 #d3ae35;
+}
+
+.inputButton:active {
+  top: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.inputButton:focus {
+  outline: none;
+}
+/*# sourceMappingURL=index.css.map */
